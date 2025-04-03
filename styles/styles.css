@@ -1,0 +1,101 @@
+@import url(./font-faces/adwaita-mono/adwaita-mono.css);
+@import url(./font-faces/inter-variable/inter-variable.css);
+
+html {
+    --bg: #01130E;
+    --txt: white;
+    --txt-bright: #00F587;
+    --deep-green: #034732;
+    --faint-text: #A6D3C6;
+
+    background-color: var(--bg);
+    color: var(--txt);
+}
+
+h1 {
+    font-family: 'Adwaita Mono';
+    font-weight: 700;
+    font-size: 64pt;
+    color: var(--txt-bright);
+
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-family: 'Inter Variable';
+    font-size: 16pt;
+    color: var(--txt-bright);
+
+    margin: 0px;
+}
+
+h3 {
+    font-family: 'Inter Variable';
+    font-size: 16pt;
+
+    margin: 0px;
+
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+p, a, label {
+    font-family: 'Inter Variable';
+    font-size: 18pt;
+}
+
+a {
+    color: var(--txt-bright);
+}
+
+a:hover {
+    color: var(--txt);
+}
+
+#content-div {
+    position: absolute; 
+    left: 0; 
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-inline: auto; 
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
+
+#text-div {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 128px;
+    margin-bottom: 128px;
+    text-align: left;
+    text-indent: 22px;
+}
+
+#form-div {
+    height: 64px;
+    width: 512px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#notecode-entry-form{
+    height: 100%;
+    width: 100%;
+}
+
+.i-beam {
+    animation-name: ibeam-blink;
+    animation-duration:  1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ibeam-blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}

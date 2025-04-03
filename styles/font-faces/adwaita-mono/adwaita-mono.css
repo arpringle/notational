@@ -1,0 +1,17 @@
+/* adwaita-mono-bold */
+@font-face {
+	font-family: Adwaita Mono;
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 100%;
+	src: local("Adwaita Mono Bold"), local("Adwaita-Mono-Bold"), url(adwaita-mono-bold.woff2) format("woff2");
+}
+/* adwaita-mono */
+@font-face {
+	font-family: Adwaita Mono;
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Adwaita Mono"), local("Adwaita-Mono"), url(adwaita-mono.woff2) format("woff2");
+}
+

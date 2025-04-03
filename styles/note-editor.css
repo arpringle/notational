@@ -1,0 +1,120 @@
+#main-note-editor {
+    padding: 32px;
+    resize: none;
+    background-color: transparent;
+    color: white;
+    border: 8px solid #034732;
+    border-bottom: none;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    height: 75vh;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: stretch;
+    font-size: 18pt;
+    outline: none;
+    font-family: 'Inter Variable';
+    margin-top: 16px;
+}
+
+#note-editing-form {
+    position: absolute;
+    left: 0; 
+    right: 0;
+    bottom: 0;
+    margin-inline: auto; 
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+#note-title {
+    left: 0;
+    background-color: transparent;
+    color: #00F587;
+    font-size: 36pt;
+    border: none;
+    font-family: 'Adwaita Mono';
+    font-weight: 700;
+    border-radius: 16px;
+    text-decoration: underline dotted;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 35vw;
+}
+
+#save-button {
+    background-color: #00F587;
+    color: #034732;
+    margin-left: 16px;
+    height: 100%;
+    aspect-ratio: 2/1;
+    font-family: 'Adwaita Mono';
+    font-size: 16pt;
+    border: none;
+    border-radius: 16px;
+}
+
+.small {
+    font-size: 8pt;
+}
+
+#toolbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin-inline: auto; 
+    margin: auto;
+
+    z-index: 1;
+    background-color: #034732;
+    height: fit-content;
+
+    padding: 8px;
+
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+#toolbar-inner-div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#toolbar button[type=submit] {
+    background-color: transparent;
+    color: white;
+    padding: 0;
+    border: none;
+    margin: 0;
+    font-size: 48px;
+}
+
+#toolbar button[type=submit] img {
+    width: 40px;
+    height: 40px;
+}
+
+#time-div {
+    text-align: right;
+    width: 100%;
+    justify-content: end;
+    display: flex;
+}
+
+#top-ui-div {
+    display: flex;
+}
+
+#top-ui-left-div {
+    text-align: left;
+}
+
+#save-button-container-div {
+    text-align: right;
+    width: 100%;
+    justify-content: end;
+    display: flex;
+}
